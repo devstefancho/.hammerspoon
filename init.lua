@@ -1,5 +1,7 @@
 local fn = hs.loadSpoon("devstefancho")
 
+fn.autoReload()
+
 -- [[ Launch App ]]
 fn.hotkeyBindApp({ "alt" }, "1", "iTerm")
 fn.hotkeyBindApp({ "alt" }, "2", "Google Chrome")
