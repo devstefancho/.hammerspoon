@@ -12,4 +12,5 @@ local FRemap = hs.loadSpoon("foundation_remapping")
 
 local remapper = FRemap.new()
 remapper:remap("rcmd", "F19") -- 한/영 변환키
+remapper:remap("capslock", "ctrl")
 remapper:register()
