@@ -1,6 +1,7 @@
 local fn = hs.loadSpoon("devstefancho")
 
 fn.autoReload()
+hs.keycodes.inputSourceChanged(fn.IM_alert)
 
 -- [[ Launch App ]]
 fn.hotkeyBindApp({ "alt" }, "1", "Alacritty")
